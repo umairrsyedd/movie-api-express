@@ -1,0 +1,24 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "search for a movie",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umairrsyedd/movie-api-express.git"
+  },
+  "author": "Syed Muhammed Umair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umairrsyedd/movie-api-express/issues"
+  },
+  "homepage": "https://github.com/umairrsyedd/movie-api-express#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
