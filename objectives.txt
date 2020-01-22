@@ -1,0 +1,8 @@
+What are we doing
+
+creating a server and listening to request
+when we get a home request then we show a page where there is an input where we are asking for a movie name
+we then take that movie name and pass it to an api and retrieve the information regarding the api
+We then convert the body data into valid json and then search for what we need 
+we then display the content of what we have searched by looping over something and the figuring what to display
+after that we display the details on a page with all the required content
