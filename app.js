@@ -16,6 +16,8 @@ app.get("/results",function(req,res){
     if(!error && response.statusCode==200)
     {
         var data = JSON.parse(body)
+        console.log(body)
+        console.log('The api has been called from the server')
         //res.send(results["Search"][0])
         res.render('results',{data : data})
     }
